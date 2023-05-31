@@ -1,7 +1,7 @@
 package com.player.cricket;
 
 import jakarta.persistence.*;
-// addming the table details
+// adding the table details
 @Entity
 @Table(name="players")
 public class Players {
