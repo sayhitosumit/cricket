@@ -35,7 +35,7 @@ private PlayerService playerService;
 
         Players players=playerService.getById(id);
         if(players== null)
-        throw new RuntimeException("Player not found" +id );
+        throw new RuntimeException("Player not found check 1" +id );
 
          playerService.deleteById(id);
          return  " player got deleted Id " + id;
