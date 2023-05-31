@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 @Table(name="players")
 public class Players {
 
-
+//adding columns
     @Id
     @Column(name="id")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
